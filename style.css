@@ -1,0 +1,29 @@
+body{
+    background-size:cover;
+    
+}
+
+.heading{
+    font-size: 25px;
+    width:50%;
+}
+.b1:hover{
+background-color:aquamarine;
+color:black;
+font-weight: bolder;
+}
+canvas{
+    animation-name:Glowy;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+@keyframes Glowy{
+    from{
+        box-shadow: 1px 1px 50px mediumaquamarine;
+    
+    }
+    to{
+        box-shadow: 1px 1px 50px magenta;
+    }
+}
